@@ -1,0 +1,37 @@
+
+#banner{
+    position: relative;
+    margin-top: 50px;
+}
+
+#banner img{
+    width: 100%;
+    height: 450px;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-family: cursive;
+}
+
+#banner .contenedor h2{
+    font-size: 29px;
+}
+
+#banner .contenedor a{
+    text-decoration: none;
+    border: solid 3px tomato;
+    margin-top: 15px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+
+#banner .contenedor a:hover{
+    background: tomato;
+}
