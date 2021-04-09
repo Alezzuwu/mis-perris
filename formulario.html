@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Perris</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
@@ -39,54 +40,34 @@
 
         <section id="bienvenido">
 
-            <h2>Galeria de Imagenes</h2>
+            <h2>Formulario de Inscripcion para Adopcion</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur odit inventore consectetur
                 quisquam minus facere excepturi atque quibusdam! Consectetur aliquid nihil possimus alias? Facilis alias
                 reiciendis iure libero quidem?</p>
         </section>
 
-        <section id="blog">
+        <section id="formu">
 
-            <div class="contenedor">
-                <article>
-                    <a href="img/Perro2.jpg" data-lightbox="perros" data-title="busca un hogar">
-                        <img src="img/Perro2.jpg" alt="">
-                    </a>
-                    <h4>Chuleta</h4>
-                </article>
-                <article>
-                    <a href="img/perro3.jpg" data-lightbox="perros" data-title="cariñoso">
-                        <img src="img/perro3.jpg" alt="">
-                    </a>
-                    <h4>Simpatia</h4>
-                </article>
-                <article>
-                    <a href="img/perro4.jpg" data-lightbox="perros" data-title="corre mucho">
-                        <img src="img/perro4.jpg" alt="">
-                    </a>
-                    <h4>KK Can</h4>
-                </article>
-                <article>
-                    <img src="img/perro5.jpg" alt="">
-                    <h4>Tatu</h4>
-                </article>
-                <article>
-                    <img src="img/perro6.jpg" alt="">
-                    <h4>Mc Perro</h4>
-                </article>
-                <article>
-                    <img src="img/perro7.jpg" alt="">
-                    <h4>Tintan</h4>
-                </article>
-                <article>
-                    <img src="img/perro8.jpg" alt="">
-                    <h4>Ramon</h4>
-                </article>
+            <form class="form-registro" action="" method="POST">
 
-            </div>
+                <h2 class="form-titulo">Creacion de Cuenta</h2>
+
+                <div class="contenedor-imput">
+
+                    <input class="col-48" type="text" name="txtNombre" id="" placeholder="ingrese nombre">
+                    <input class="col-48" type="text" name="txtApellido" id="" placeholder="ingrese apellido">
+                    <input class="col-100" type="email" name="txtEmail" id="" placeholder="ingrese email">
+                    <input class="col-48" type="text" name="txtUsuario" id="" placeholder="ingrese usuario">
+                    <input class="col-48" type="password" name="txtPass" id="" placeholder="ingrese password">
+                    <input class="col-100" type="text" name="txtFono" id="" placeholder="ingrese telefono">
+
+                    <input class="btn-enviar" type="submit" value="Registrar">
+                </div>
+            </form>
+
         </section>
 
-    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 
 
